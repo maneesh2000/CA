@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class PatternPrograme {
+
+	public static void main(String[] args) {
+	Scanner scna=new Scanner(System.in)
+		
+		
+		
+		for(int i=1;i<6;i++) {
+			
+			
+			if(i%2==0) {
+				
+				System.out.println("* *");
+			
+				
+				
+				
+			}else {
+				
+				
+				System.out.println("*");
+				
+				
+				
+			}
+			
+			
+			
+			
+			
+		}
+
+	}
+
+}

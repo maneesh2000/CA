@@ -1,0 +1,38 @@
+
+
+import java.util.Scanner;
+
+public class patternprograme {
+
+	public static void main(String args[]) {
+		
+		int gride;
+		int row;
+		int count=1;
+
+	
+		Scanner num=new Scanner(System.in);
+
+		int number=num.nextInt();
+System.out.print("Enter your limit:");
+
+     
+for(row=1;row<number;row++) {
+	
+	for(gride=0;gride<number;gride++) {
+		
+		
+		
+		System.out.print(" " +gride);
+		
+		   count++;
+	}
+	
+	
+}
+
+		
+
+	}
+
+}
